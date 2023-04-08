@@ -1,0 +1,44 @@
+body{
+    color: rgba(165, 42, 42, 0.814);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(165, 42, 42);
+    border-radius: 5px;
+    margin: 2px;
+}
+
+input[type="button"]{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(165, 42, 42);
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(165, 42, 42);
+    color: white;
+}
+
+input[type="button"]:hover{
+    background-color: orange;
+    color: white;
+}
+
+input[type="button"]:active{
+    background-color: rgb(165, 42, 42);
+    color: white;
+}
+
+h1{
+    text-align: auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(165, 42, 42);
+}
